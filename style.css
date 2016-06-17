@@ -1,0 +1,77 @@
+<link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
+
+a,
+a:hover {
+  text-decoration: none;
+}
+img.center {
+  display: block;
+  margin: 0 auto;
+}
+.main-col {
+  max-width: 400px;
+  margin: auto;
+  padding: 0 5px 0 5px;
+}
+
+.user-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: space-around;
+  align-items: center;
+  padding: 10px;
+  color: #333;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+.user-div:hover {
+  background-color: #e6e6e6;
+}
+
+.text {
+  order: 0;
+  flex: 0 1 auto;
+  align-self: center;
+  font-size: 24px;
+  text-align: left;
+  width: 60%;
+}
+
+.display-name {
+  font-size: 18px;
+  color: #6542A6;
+}
+
+.details {
+  font-size: 12px;
+  letter-spacing: initial;
+}
+
+.user-div .fa {
+  order: 0;
+  flex: 0 1 auto;
+  align-self: center;
+  font-size: 24px;
+  color: #6542A6;
+}
+.img-profile {
+  order: 0;
+  flex: 0 1 auto;
+  align-self: center;
+  width: 40px;
+  margin-right: 5px;
+}
+
+.btn-group .btn {
+  border-radius: 4px 4px 0 0;
+  height: 50px;
+}
+
+.form-control {
+  border-radius: 0;
+  border-top: none;
+  height: 40px;
+}
