@@ -1,5 +1,5 @@
 # Twitch
-Customizable Twitch User Display API
+Customizable User Display using Twitch API
 
 <img src="https://github.com/123Fives/twitch/blob/master/images/demo/twitch_demo.PNG" />
 
